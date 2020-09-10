@@ -16,6 +16,6 @@ const hexsquare = `
 ########               ########
 ###############################
 ###############################
-###############################`; //Cube we need for the project, inside the code for hex numbers(What about the size? Can I change that)
+###############################`; //Cube we need for the layout, inside the code for hex numbers(What about the size? Can I change that)
 
 console.log(chalk.hex(`${colorinput}`).bold(`${hexsquare}`)); // to run it all, first part is the color second part is the form
