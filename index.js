@@ -1,12 +1,11 @@
-const randomcolor = require('randomcolor'); //to use the randomcolor module
-const chalk = require('chalk'); //to use the chalk module
+const randomcolor = require('randomcolor');
+const chalk = require('chalk');
 
 const chooseColor = {
   hue: process.argv[2],
   luminosity: process.argv[3], //create a object to choose the color and give the option to use different colors
 };
 const colorinput = randomcolor(chooseColor);
-
 const hexsquare = `
 ###############################
 ###############################
