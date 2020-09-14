@@ -1,6 +1,4 @@
 # node-color-random-generator
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ````random colors are generated, hex# are shown in the middle.
 node index.js command gives you a random color.
